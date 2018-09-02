@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Advanced Samples 2
-Bundle-SymbolicName: org.eclipse.tea.samples.ch15.s02
+Bundle-Name: Advanced Samples 3
+Bundle-SymbolicName: org.eclipse.tea.samples.ch15.s03
 Bundle-Version: 1.0.0.qualifier
-Automatic-Module-Name: org.eclipse.tea.samples.ch15.s02
+Automatic-Module-Name: org.eclipse.tea.samples.ch15.s03
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.tea.ease;bundle-version="1.0.0",
  org.eclipse.tea.core;bundle-version="1.0.0",
@@ -15,9 +15,7 @@ Require-Bundle: org.eclipse.tea.ease;bundle-version="1.0.0",
  com.wamas.ide.launching;bundle-version="0.1.2",
  org.eclipse.e4.core.contexts,
  org.eclipse.tea.core.ui,
- org.eclipse.e4.ui.workbench
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.tea.library.build;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
-Service-Component: OSGI-INF/org.eclipse.tea.samples.ch15.s02.MyGroupings.xml,
- OSGI-INF/org.eclipse.tea.samples.ch15.s02.TaskChainGrpA.xml,
- OSGI-INF/org.eclipse.tea.samples.ch15.s02.TaskChainGrpB.xml,
- OSGI-INF/org.eclipse.tea.samples.ch15.s02.TaskChainGrpNone.xml
+Service-Component: OSGI-INF/org.eclipse.tea.samples.ch15.s03.TaskChainRunSomething.xml
