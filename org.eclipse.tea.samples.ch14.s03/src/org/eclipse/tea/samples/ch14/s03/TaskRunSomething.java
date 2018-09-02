@@ -1,4 +1,4 @@
-package org.eclipse.tea.samples.ch14.s02;
+package org.eclipse.tea.samples.ch14.s03;
 
 import org.eclipse.e4.core.di.annotations.Execute;
 import org.eclipse.tea.core.services.TaskingLog;
