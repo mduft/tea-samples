@@ -19,13 +19,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.tea.sample.ch14.s01"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.tea.samples.ch14.s02"
          download-size="0"
          install-size="0"
@@ -62,6 +55,13 @@
 
    <plugin
          id="org.eclipse.tea.samples.ch15.s03"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tea.samples.ch02.s01"
          download-size="0"
          install-size="0"
          version="0.0.0"
