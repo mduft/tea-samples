@@ -8,7 +8,7 @@ import org.eclipse.tea.core.services.TaskChain.TaskChainId;
 import org.eclipse.tea.ease.EaseScriptTask;
 import org.osgi.service.component.annotations.Component;
 
-@TaskChainId(description = "Run EASE sample.py")
+@TaskChainId(description = "CH13-S01: Run EASE sample.py")
 @TaskChainMenuEntry(path = "Samples")
 @Component
 public class EaseTaskChain implements TaskChain {
